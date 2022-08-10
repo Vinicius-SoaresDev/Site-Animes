@@ -1,0 +1,167 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Fundo\ Preto.PNG.png);
+    margin: 0 auto;
+}
+.menu-principal {
+    width: 100%;
+    height: 30px;
+    background-image: url(../img/Mnagá\ Background\ 2.png);
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+main .content {
+    margin: 0 auto;
+    width: 980px;
+}
+.header-1 {
+    padding-top: 1%;
+}
+.logo {
+    float: left;
+    padding-left: 65px;
+    width: 22%;
+    height: 15px;
+    cursor: pointer;
+}
+.redes-sociais ul li {
+    margin-left: 5px;
+    padding-top: 0%;
+    padding-left: 35px;
+}
+ul {
+    margin-left: 10px;
+    padding-left: 10px;
+    margin: 5px;
+    display: inline; 
+}
+ul li {
+    margin-left: 30px;
+    display: inline; 
+    cursor: pointer;
+}
+.menu a {
+    width: 30%;
+    height: 10px;
+    display: inline; 
+}
+ul{
+    list-style: none; 
+    display: inline; 
+    padding-left: 30px;
+}
+ul li{
+    display: inline; 
+    margin: 25px;
+}
+.menu {
+    width: 100%;
+    float: left;
+}
+.Barra input {
+    background-image: url('../img/Lupa.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 3px;
+    margin-top: -8px;
+    padding: 15px;
+}
+.Barra {
+    width: 30%;
+    float: right;
+    margin-top: 12px;
+}
+.col-4 {
+    padding-left: 10%;
+    cursor: pointer;
+}
+.col-5 {
+    position: relative;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+.texto-1 h1 {
+    color: #61c1ff;
+    font-size: 300%;
+    padding-left: 10%;
+}
+.texto-2 h1 {
+    color: #61c1ff;
+    font-size: 100%;
+    padding-left: 10%;
+    padding-top: -10%;
+}
+.col-6 {
+    padding-left: 70%;
+}
+.col-7 {
+    padding-left: 15%;
+}
+.col-8 {
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.box {
+    width: 450px;
+    height: 450px;
+    border: 5px solid blue;
+    position: absolute;
+    top: 96%;
+    left: 21%;
+    padding-left: 0%;
+}
+.Barra-2 {
+    position: relative;
+    padding-right: 70%;
+    width: 30%;
+    float: right;
+    margin-top: 12px;
+}
+.texto-3 {
+    color: #61c1ff;
+    padding-top: 3%;
+    padding-left: 28%;
+    font-size: 60%;
+    cursor: pointer;
+}
+.Barra-2 input {
+    background-image: url('../img/Lupa.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 3px;
+    margin-top: -8px;
+    padding: 15px;
+}
+.col-100GranAnimes {
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.Gran {
+    float: left;
+    padding-top: 10%;
+    padding-right: 0%;
+    margin-right: -10%;
+}
+.Dabi {
+    float: left;
+    padding-top: 8%;
+    padding-left: 10%;
+    margin-left: 1%;
+}
+.AnimesNick {
+    float: left;
+    padding-top: 10%;
+    padding-left: -10%;
+    margin-left: 1%;
+}
+.footer {
+    color: #ffffff;
+    height: 20px;
+    font-size: 14px;
+    left: -1070px;
+    text-align: center;
+}

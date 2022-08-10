@@ -1,0 +1,389 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(../img/Fundo\ Preto.PNG.png);
+}
+.menu-principal {
+    width: 100%;
+    background-image: url(../img/Mnagá\ Background\ 2.png);
+    height: 30px;
+}
+@media (max-width: 1200px) {.redes-sociais {
+  width: 1000px;
+}}
+@media (max-width: 1024px) {.redes-sociais {
+  width: 700px;
+}}
+@media (max-width: 768px) {.redes-sociais {
+  width: 400px;
+}}
+@media (max-width: 425px) {.redes-sociais {
+  width: 320px;
+}}
+.header-1 {
+    padding-top: 6px;
+}
+main .content {
+    margin: 0 auto;
+    width: 980px;
+}
+.logo {
+    padding-top: 6px;
+    float: left;
+    padding-left: 65px;
+    width: 22%;
+    height: 15px;
+    cursor: pointer;
+}
+.redes-sociais ul li {
+    margin-left: 5px;
+    padding-top: 10%;
+    padding-left: 30px;
+}
+ul {
+    margin-left: 10px;
+    padding-left: 10px;
+    margin: 5px;
+    display: inline; 
+}
+ul li {
+    margin-left: 40px;
+    display: inline; 
+    cursor: pointer;
+}
+.menu a {
+    width: 30%;
+    height: 10px;
+    display: inline; 
+}
+ul{
+    list-style: none; 
+    display: inline; 
+}
+ul li{
+    display: inline; 
+    margin: 25px;
+    padding-left: 20px;
+}
+.menu {
+    width: 40%;
+    float: left;
+}
+.Barra input {
+    background-image: url('../img/Lupa.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 30px;
+    margin-top: 0px;
+    padding: 15px;
+}
+.Barra {
+    width: 30%;
+    float: right;
+    margin-top: -37px;
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0;
+    border: none;
+    background: transparent;
+}
+button.slick-next {
+    font-size: 0;
+    border: none;
+    background: transparent;
+}
+.slider-principal {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+ul.slick-dots li button {
+    margin: -30px;
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: transparent;
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 35%;
+    position: absolute;
+    right: 24%;
+    top: 94%;
+}
+ul.slick-dots li.slick-active button {
+    background: #00bac6;
+}
+.slick-dots li button {
+    padding-left: 0px;
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #090909;
+    width: 300px;
+    height: 260px;
+    margin: 8px;
+    margin-top: 5%;
+    border-radius: 5px;
+  }
+  
+  .card-image {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .publi-1 {
+    background-image: url(../img/NarutoShippuden.jpg);
+  }
+  
+  .publi-2 {
+    background-image: url(../img/SNK.png);
+  }
+  
+  .publi-3 {
+    background-image: url(../img/one\ piece.2.png);
+  }
+  
+  .publi-4 {
+    background-image: url(../img/Dragon\ Ball\ Super.jpg);
+  }
+  .publi-5 {
+    background-image: url(../img/Death\ Note.jpg);
+  }
+  .publi-6 {
+    background-image: url(../img/Kimetsu\ 2.png);
+  }
+  
+  .card p {
+    padding: 5px;         
+    color: white; 
+  }
+  
+  .card:hover {
+    background-color: #006db3;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.1s ease;
+  }
+  
+  /*Times*/
+  
+  .card-times {
+    background-color: white;
+    width: 220px;
+    height: 350px;
+    margin: 8px;
+    border-radius: 15px;
+  }
+  
+  .card-image-times img {
+    background-color: white;
+    height: 250px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+    display: block;
+  }
+  
+  .card-times p {
+    padding: 5px;         
+    color: white;       
+  }
+  
+  .card-times:hover {
+    background-color: rgb(82, 1, 87);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+  }
+.texto-1 h1 {
+    color: #009dff;
+    padding: 1%;
+}
+.col-3 {
+    width: 33,3%;
+    float: left;
+    position: relative;
+    padding: 1%;
+    padding-left: 150px;
+    padding-right: 100px;
+    top: 260px;
+}
+.col-3 h3 {
+    color: #ffffff;
+    font-size: 200%;
+}
+h1 {
+    font-weight: normal!important;
+}
+h2 {
+    font-weight: normal!important;
+}
+.texto-2 h1 {
+    color: #006db3;
+    padding: 1%;
+    padding-top: 2%;
+}
+.col-4 {
+    width: 33,3%;
+    float: left;
+    position: relative;
+    padding: 1%;
+    padding-left: 150px;
+    padding-right: 100px;
+    top: 510px;
+}
+.col-4 h3 {
+    color: #ffffff;
+    font-size: 200%;
+}
+.container-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card-2 {
+    background-color: #090909;
+    width: 300px;
+    height: 260px;
+    margin: 8px;
+    margin-top: 5%;
+    border-radius: 5px;
+  }
+  
+  .card-2-image {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .publi-7 {
+    background-image: url(../img/NarutoShippuden.jpg);
+  }
+  
+  .publi-8 {
+    background-image: url(../img/one\ piece.2.png);
+  }
+  
+  .publi-9 {
+    background-image: url(../img/Dragon\ Ball\ Super.jpg);
+  }
+  
+  .publi-10 {
+    background-image: url(../img/hunter-x-hunter.jpg);
+  }
+  .publi-11 {
+    background-image: url(../img/One\ punch\ man.png);
+  }
+  .publi-12 {
+    background-image: url(../img/Kimetsu\ 2.png);
+  }
+  
+  .card-2 p {
+    padding: 5px;        
+    color: white;    
+  }
+  
+  .card-2:hover {
+    background-color: #006db3;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.1s ease;
+  }
+  
+  /*Times*/
+  
+  .card-2-times {
+    background-color: white;
+    width: 220px;
+    height: 350px;
+    margin: 8px;
+    border-radius: 15px;
+  }
+  
+  .card-2-image-times img {
+    background-color: white;
+    height: 250px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+    display: block;
+  }
+  
+  .card-2-times p {
+    padding: 5px;         
+    color: white;  
+  }
+  
+  .card-2-times:hover {
+    background-color: rgb(82, 1, 87);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+  }
+.col-100 h1 {
+    Position: absolute;
+    Top: -30px;
+     Color: #006db3;
+     Font-size: 35px;
+     padding-left: 2%;
+}
+.col-100GranAnimes {
+    padding-left: 33%;
+    padding-top: 0%;
+}
+.Gran {
+    float: left;
+    padding-top: 10%;
+    padding-right: 0%;
+    margin-right: -10%;
+}
+.Dabi {
+    float: left;
+    padding-top: 8%;
+    padding-left: 10%;
+    margin-left: 1%;
+}
+.AnimesNick {
+    float: left;
+    padding-top: 10%;
+    padding-left: -10%;
+    margin-left: 1%;
+}
+.footer {
+    color: #ffffff;
+    height: 20px;
+}
